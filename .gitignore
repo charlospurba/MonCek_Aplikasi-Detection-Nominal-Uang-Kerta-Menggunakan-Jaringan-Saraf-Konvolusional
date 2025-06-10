@@ -1,0 +1,5 @@
+if [ ! -f .gitignore ]; then
+  echo ".DS_Store" >> .gitignore
+  echo "thumbs.db" >> .gitignore
+  echo "*.zip" >> .gitignore
+fi
